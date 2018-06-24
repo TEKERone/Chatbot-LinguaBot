@@ -13,12 +13,13 @@ Para obtener el código puede clonarlo o bajarlo
 
 ### Clonar
 
-    git clone git@github.com:ivanovishado/LinguaBot.git
+    
+    git clone git@github.com:TEKERone/Chatbot-LinguaBot.git
 
 ### Bajarlo
 
 Bajarlo de
-[aquí](https://github.com/ivanovishado/LinguaBot/archive/master.zip)
+[aquí](https://github.com/TEKERone/Chatbot-LinguaBot.zip)
 
 Descomprimir
 
@@ -36,9 +37,9 @@ Activar virtualenv en el directorio con el código
 
 En el directorio del código hacer
 
-    pip install -r requirements.txt
+    pip3 install -r requirements.txt
 
-## Habilitar _ngrok_
+## Habilitar ngrok
 
 _ngrok_ es una herramienta de tunel que nos permitirá exponer nuestro servicio
 en una dirección url pública
@@ -69,6 +70,6 @@ Donde <puerto> es el puerto escrito en "server.py" (default=5050).
 
 Para ejecutarlo de forma normal
 
-    python server.py
+    python3 server.py
 
 Despues de esto, comprobar que el chatbot responda desde Messenger.
