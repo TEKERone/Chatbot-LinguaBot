@@ -54,7 +54,7 @@ en una dirección url pública
     4. Al ejecutarse te dará una dirección publica, con esa hay que configurar
        el chatbot en facebook
 
-Donde <puerto> es el puerto escrito en "server.py" (default=5050).
+Donde <puerto> es el puerto escrito en "server.py" (default=8080).
 
 ## Chatbot en Facebook
 
