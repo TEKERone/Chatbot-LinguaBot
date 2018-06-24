@@ -19,7 +19,8 @@ Para obtener el código puede clonarlo o bajarlo
 ### Bajarlo
 
 Bajarlo de
-[aquí](https://github.com/TEKERone/Chatbot-LinguaBot.zip)
+[aquí](https://github.com/TEKERone/Chatbot-LinguaBot/archive/master.zip)
+
 
 Descomprimir
 
