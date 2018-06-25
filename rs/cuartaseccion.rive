@@ -1,0 +1,32 @@
+> topic cuartaseccion includes secciones
+    
+    + actividades
+    - visita nuestra pagina para repsar lo aprendido\n
+    ^ https://www.facebook.com/
+    ^ ¿Cuales tipo de actividad te interesa repasar?
+
+    
+
+    + temas de la cuarta seccion
+	- ¿Cuál de los temas de la cuarta sección te interesa repasar?\n 
+	^ Actividades.\n
+
+	+ quiero cambiar de tema
+	- {@ temas de la cuarta seccion}
+
+	+ que otro tema puedo repasar
+	- {@ temas de la cuarta seccion}
+
+	+ [*] cambiar [*] tema [*]
+	- {@ temas de la cuarta seccion}
+
+    + @no
+	- Perfecto que pases un exelente día vuelve pronto.\n {@ que otro tema puedo repasar}
+    - Recuerda seguir practicando.\n{@ que otro tema puedo repasar}
+    - Vuelve pronto para seguir practicando.\n {@ que otro tema puedo repasar}
+	- OK. No te preocupes. Puedes repasar otros temas..\n {@ que otro tema puedo repasar}
+	- No pasa nada, puedes repasar otros temas..\n {@ que otro tema puedo repasar}
+	- Ok, espero que sigas repasando otros tema..\n {@ que otro tema puedo repasar}
+
+
+< topic

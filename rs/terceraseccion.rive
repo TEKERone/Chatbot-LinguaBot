@@ -1,0 +1,685 @@
+> topic terceraseccion includes secciones
+
+    + [los] verbos
+    - Ok, existe 3 tipos de verbos:\n
+    ^ Verbo to be.\n
+    ^ Verbo to have.\n
+    ^ Verbo to do.\n
+    ^ ¿Cual de los tipos de verbos te interesa repasar?
+    
+
+    + temas de la tercera seccion
+	- ¿Cuál de los temas de la tercera sección te interesa repasar?\n {topic=terceraseccion}
+	^ Verbo to be\n 
+    ^ Verbo to have\n
+    ^ Verbo to do\n
+	^ Formas cortas.\n
+	^ Vocabulario familiar.\n
+
+	+ quiero cambiar de tema
+	- {@ temas de la tercera seccion}
+
+	+ que otro tema puedo repasar
+	- {@ temas de la tercera seccion}
+
+	+ [*] cambiar [*] tema [*]
+	- {@ temas de la tercera seccion}
+
+    + verbo to be
+    - Existen 3 tipos de verbo to be:\n
+    ^ to be afirmativo.\n 
+    ^ to be negativo.\n
+    ^ to be interrogativo.\n
+    ^ ¿Cual de los tipos de verbo to be quieres repasar?
+
+	+ [el][verbo to be] afirmativo 
+    - I - Yo.\n {topic=tobeafirmativo}
+	^ You - Tú,usted.\n
+	^ He - El.\n
+	^ She - Ella.\n
+	^ It - El,ella.\n
+	^ We - Nosotros.\n
+	^ You - Nosotros,ustedes.\n
+	^ They - Ellos,ellas.\n
+    ^ ¿Quieres algunos ejemplos del verbo?
+
+	+ [verbo to be] negativo 
+    - I am not - yo no soy/estoy.\n {topic=tobenegativo}
+    ^ You are not - tú no eres/estás.\n
+    ^ It is not - no es/está.\n
+    ^ He is not - él no es/están.\n
+    ^ We are not - nosotros no somos/estamos\n
+    ^ They are not:ellos no son/están.\n
+    ^ ¿Quieres algunos ejemplos del verbo?
+
+    + [verbo to be] interrogativo 
+    - Am I? - ¿Yo soy/estoy?\n {topic=tobeinterrogativo}
+    ^ Are you? - ¿Tu eres/estás?\n
+    ^ Is he? - ¿El es/está?\n
+    ^ Is she? - ¿Ella es/está?\n
+    ^ Is it? - ¿Es/está?\n
+    ^ Are we? - ¿Nosotros somos/estamos?\n
+    ^ Are they? - ¿Ellos son/están?\n
+    ^ ¿Quieres algunos ejemplos del verbo?
+
+	+ [el][verbo to have|to have]
+    - las oraciones con su significado:\n
+    ^ verbo to have tener\n
+    ^ verbo to have haber.\n
+    ^ ¿Cual de los tipos de verbo to have quieres repasar?
+
+    + [verbo to have tener|tener|to have tener]
+    - I have - Yo tengo\n {topic=verbotohavetener}
+    ^ You have - Tú tienes\n
+    ^ He has - Él tiene\n
+    ^ She has - Ella tiene\n
+    ^ We have - Nosotros tenemos\n
+    ^ You have - Ustedes tienen\n
+    ^ They have - Ellos tienen\n
+    ^ ¿Quieres algunos ejemplos del verbo?
+
+    + [verbo to have haber|haber|to have haber]
+    - I had - Yo tuve\n {topic=verbotohavehaber}
+    ^ You - Tu tenias\n
+    ^ He had - Él tuvo\n
+    ^ She had - Ella tenía\n
+    ^ We had - Tuvimos\n
+    ^ You had - Tu tenias\n
+    ^ They had - Tuvieron\n
+    ^ ¿Quieres algunos ejemplos del verbo?
+
+	+ [el][verbo to do|to do]
+    - verbo "Hacer" existen dos tipos:\n
+    ^ Verbo to do Presente simple\n
+    ^ Verbo to do Pasado simplen\n
+    ^ ¿Cual de los tipos de verbo to do quieres repasar?
+
+    + [el][verbo to do presente simple|to do presente|presente simple|presente]
+    - I do - yo hago\n verbotodopresentesimple
+    ^ You do - tu haces\n
+    ^ He  does - el hace\n
+    ^ She does - ella hace\n
+    ^ It does - el/ella hace\n
+    ^ We do - nosotros hacemos\n
+    ^ You do - ustedes hacen\n
+    ^ They do - ellos hacen\n\n {topic=verbotodopresentesimple}
+    ^ ¿Quieres algunos ejemplos del verbo to do presente simple?
+
+
+    + [el][verbo to do pasado simple|pasado simple|to do pasado|pasado]
+    - I did - yo hice\n verbotodopasadosimple
+    ^ You did - tu hiciste\n
+    ^ He did - el hizo\n
+    ^ She did - ella hizo\n
+    ^ It did - el/ella hizo\n
+    ^ We did - nosotros hicimos\n
+    ^ You did - ustedes hicieron\n
+    ^ They did - ellos hicieron\n{topic=verbotodopasadosimple}
+    ^ ¿Quieres algunos ejemplos del verbo to do pasado simple?
+
+    + formas cortas
+    - tengo 2 formas cortas\n {topic=formascortas}
+    ^ forma simple\n
+    ^ forma negativa\n
+    ^ ¿Cual de los tipo de forma corta te interesa repasar?
+
+    + vocabulario familiar
+    - vocabulario\n {topic=vocabulario}
+    ^ ejemplos\n 
+    ^ ¿Cual de los tipo de vocabulario te interesa repasar?
+
+    
+    + @no
+    - Perfecto que pases un exelente día vuelve pronto.\n{@ que otro tema puedo repasar}
+    - Recuerda seguir practicando.\n{@ que otro tema puedo repasar}
+    - Vuelve pronto para seguir practicando.\n{@ que otro tema puedo repasar}
+    - OK. No te preocupes. Puedes repasar otros temas..\n{@ que otro tema puedo repasar}
+	- No pasa nada, puedes repasar otros temas..\n{@ que otro tema puedo repasar}
+	- Ok, espero que sigas repasando otros tema..\n{@ que otro tema puedo repasar}
+
+< topic
+
+
+> topic tobeafirmativo includes terceraseccion
+    + @si
+	- Ok, ¿De cuál verbo to be afirmativo quieres los ejemplos?
+	- Muy bien, ¿acerca de cuál verbo to be afirmativo quieres saber más?
+	- Claro, dime de cuál verbo to  be afirmativo te interesan los ejemplos.
+    
+    + i 
+    - I am Spanish - soy español-soy española\n
+    ^ I am at work - estoy en el trabajo\n
+    ^ I am nice - Soy agradable \n
+    ^ I am tired - Estoy cansado\n
+    ^ I am from London - Yo soy de Londres\n
+    ^ ¿Quieres ejemplos de algún otro tipo de verbo to be?
+
+
+    + you
+    - You are nice - Eres simpático-eres simpática \n
+    ^ You are tired - Estás cansado-estás cansada\n
+    ^ You are Spanish - Eres español\n
+    ^ You are at work - Estás en el trabajo\n
+    ^ You are from London - Eres de Londres\n
+    ^ ¿Quieres ejemplos de algún otro tipo de verbo to be?
+
+    + he
+    - He is from London - Él es de Londres\n
+    ^ He is ill - Él está enfermo\n
+    ^ He is tired - Está cansado\n
+    ^ He is Spanish - Él es español\n
+    ^ He is at work - Él esta en el trabajo\n
+    ^ ¿Quieres ejemplos de algún otro tipo de verbo to be?
+
+    + she
+    - She is American - Ella es americana\n
+    ^ She is at home - Ella está en casa\n
+    ^ She is tired - Ella está cansado\n
+    ^ She is Spanish - Élla es española\n
+    ^ She is at work - Élla esta en el trabajo\n
+    ^ ¿Quieres ejemplos de algún otro tipo de verbo to be?
+
+    + it
+    - It is late - Es tarde\n
+    ^ It is broken - Está roto\n
+    ^ It is tired - Está cansado\n
+    ^ It is Spanish - Es española\n
+    ^ It is at work - Esta en el trabajo\n
+    ^ ¿Quieres ejemplos de algún otro tipo de verbo to be?
+
+    + we
+    - We are good friends - somos buenos amigos-somos buenas amigas \n
+    ^ We are always together - siempre estamos juntos-siempre estamos juntas \n
+    ^ We are tired - Estamos cansados\n
+    ^ We are Spanish - Somos españoles\n
+    ^ We are at work - Estamos en el trabajo\n
+    ^ ¿Quieres ejemplos de algún otro tipo de verbo to be?
+
+    + they
+    - They are worried - ellos están preocupados-ellas están preocupadas\n
+    ^ They are happy - ellos son felices-ellas son felices\n
+    ^ They are tired - Ellos estan cansados\n
+    ^ They are Spanish - Ellos son españoles\n
+    ^ They are at work - Esllos estan el trabajo\n
+    ^ ¿Quieres ejemplos de algún otro tipo de verbo to be?
+
+< topic
+
+> topic tobenegativo includes terceraseccion
+    + @si
+    - Ok, ¿De cuál verbo to be negativo quieres los ejemplos?
+	- Muy bien, ¿acerca de cuál verbo to be negativo quieres saber más?
+	- Claro, dime de cuál verbo to be negativo te interesan los ejemplos.
+    
+    + i am
+    - I am not a good student - Yo no soy un buen estudiante.\n
+    ^ I am not now in a position to help you - No estoy en condiciónes de ayudarte.\n
+    ^ I am not ugly - Yo no soy feo\n
+    ^ I am not in Paris - Yo no estoy en París\n
+    ^ I am not late - No llego\n
+    ^ ¿Quieres ejemplos de algún otro tipo de verbo to be?
+
+    + you are
+    - You are not ugly - Tú no eres feo\n
+    ^ You are not in Paris - Tú no estás en París\n
+    ^ You are not late - No has llegado tarde\n
+    ^ You are not a good student - No eres un buen estudiante.\n
+    ^ You are not now in a position to help you - No estás en condiciones de ayudarte.\n
+    ^ ¿Quieres ejemplos de algún otro tipo de verbo to be?
+
+
+    + he
+    - He wasn’t in the right place - Él no estaba en el sitio adecuado\n
+    ^ He is not my son, but my nephew - Él no es mi hijo sino mi sobrino.\n
+    ^ He is not a doctor	- Él no es un doctor\n
+    ^ He is not in Paris - Él no esta en París\n
+    ^ He is not late - Él no ha llegado tarde\n
+    ^ ¿Quieres ejemplos de algún otro tipo de verbo to be?
+
+
+    + she is
+    - She is not my mother but my oldest sister - Ella no es mi madre, sino mi hermana mayor\n
+    ^ She is not a teacher - Ella no es una maestra\n
+    ^ She is not a doctor - Ella no es un doctor\n
+    ^ She is not in Paris - Ella no esta en París\n
+    ^ She is not late - Ella no ha llegado tarde\n
+    ^ ¿Quieres ejemplos de algún otro tipo de verbo to be?
+
+
+    + it is
+    - It is not my fault, is it? - Esto no es culpa mía, ¿verdad?\n
+    ^ It is not easy to speak naturally on the radio - No es fácil hablar de forma natural en la radio.\n
+    ^ It is not easy to find recognition - No es fácil encontrar reconocimiento.\n
+    ^ It is not in Paris - Ella no esta en París\n
+    ^ It is not late - Ella no ha llegado tarde\n
+    ^ ¿Quieres ejemplos de algún otro tipo de verbo to be?
+
+
+    + we are
+    - We are not students - No somos estudiantes.\n
+    ^ We are not easy to speak naturally on the radio - No somos fáciles de hablar naturalmente en la radio.\n
+    ^ We are not easy to find recognition - No somos fáciles de encontrar reconocimiento.\n
+    ^ We are not in Paris - No estamos en París.\n
+    ^ We are not late - No estamos tarde.\n
+    ^ ¿Quieres ejemplos de algún otro tipo de verbo to be?
+
+
+    + they are
+    - They are not my real parents - Ellos no son mis verdaderos padres.\n
+    ^ They are not interested in other languages - No les interesan las otras lenguas.\n
+    ^ They are not in New York - No están en Nueva York\n
+    ^ They are not in Paris - No están en París\n
+    ^ They are not late - No llegan tarde\n
+    ^ ¿Quieres ejemplos de algún otro tipo de verbo to be?
+
+< topic
+
+> topic tobeinterrogativo includes terceraseccion
+    + @si
+    - Ok, ¿De cuál verbo to be interrogativo quieres los ejemplos?
+	- Muy bien, ¿acerca de cuál verbo to be interrogativo quieres saber más?
+	- Claro, dime de cuál verbo to be interrogativo te interesan los ejemplos.
+    
+
+    + am i
+    - Am I a good student? - ¿Soy un buen estudiante?.\n
+    ^ Am I in love? - ¿Estoy enamorado?\n
+    ^ Am I Obsessive? - ¿Estoy obeso?\n
+    ^ Am I reprobate? - ¿Estoy reprobado?\n
+    ^ Am I happy in your house? - ¿Estoy feliz en tu casa?\n
+    ^ ¿Quieres ejemplos de algún otro tipo de verbo to be?
+
+	+ are you
+    - Are you guys from Austria, or is it Australia? - ¿Venís de Austria o de Australia?\n
+    ^ Are you guys really cousins? - ¿En serio son primos?\n
+    ^ Are you ready to begin? - ¿Están listos para empezar?\n
+    ^ Are you crazy? - ¿Estás loco?\n
+    ^ Are you happy in your house? - ¿Estás feliz en tu casa?\n
+    ^ ¿Quieres ejemplos de algún otro tipo de verbo to be?
+
+	+ is he
+    - Is he a student? - ¿Él es un estudiante?.\n
+    ^ Is he a businessman? - ¿Él es un hombre de negocios?\n
+    ^ Is he a lawyer? - ¿Él es un abogado?.\n
+    ^ Is he ready to begin? - ¿Esta listo para empezar?\n
+    ^ Is he crazy? - ¿Está loco?\n
+    ^ ¿Quieres ejemplos de algún otro tipo de verbo to be?
+
+	+ is she
+    - Is she sick today?  - ¿Ella está enferma hoy?.\n
+    ^ Is she a young woman? - ¿Ella es una mujer joven?.\n
+    ^ Is she angry? - ¿Ella esta enojada?.\n
+    ^ Is she ready to begin? - ¿Esta lista para empezar?\n
+    ^ Is she crazy? - ¿Está loca?\n
+    ^ ¿Quieres ejemplos de algún otro tipo de verbo to be?
+
+	+ is it
+    - Is it a sunny day? - ¿Es un día soleado?.\n
+    ^ Is it a good movie? - ¿Es una buena película?.\n
+    ^ Is it angry? - ¿Esta enojado?.\n
+    ^ Is it ready to begin? - ¿Esta listo para empezar?\n
+    ^ Is it crazy? - ¿Es una loca?\n
+    ^ ¿Quieres ejemplos de algún otro tipo de verbo to be?
+
+	+ are we
+    - Are we old friends? - ¿Somos viejos amigos?.\n
+    ^ Are we lazy?—Nosotros somos perezosos?\n
+    ^ Are we crazy? - ¿EStamos locos?\n
+    ^ Are we angry? - ¿Somos enojones?.\n
+    ^ Are we ready to begin? - ¿Estan listos para empezar?\n
+    ^ ¿Quieres ejemplos de algún otro tipo de verbo to be?
+
+	+ are they
+    - Are they crazy? - Ellos son locos?\n
+    ^ Are they from USA? - ¿Son ellos de Estados Unidos?)\n
+    ^ Are they at the bank? - ¿Están ellos en el banco?\n
+    ^ Are they reprobate? - ¿Estos estan reprobado?
+    ^ Are they happy in your house? - ¿Son felices en tu casa?\n
+    ^ ¿Quieres ejemplos de algún otro tipo de verbo to be?
+
+< topic
+
+> topic verbotohavetener includes terceraseccion
+    + @si
+	- Ok, ¿De cuál verbo to have tener quieres los ejemplos?
+	- Muy bien, ¿acerca de cuál verbo to have tener quieres saber más?
+	- Claro, dime de cuál verbo to have tener te interesan los ejemplos.
+
+    + i have
+    - I have a son - Yo tengo un hijo.\n
+    ^ I have one sister and four brothers - Yo tengo una hermana y cuatro hermanos\n
+    ^ I have blue eyes - Yo tengo ojos azules\n
+    ^ I have a date with her tonight - Yo tengo una cita con ella esta noche\n
+    ^ I have a bicycle - Tengo una bicicleta\n
+    ^ ¿Quieres ejemplos de algún otro  tipo de verbo to have?
+
+    + you 
+    - You have a son - Tú tienes un hijo.\n
+    ^ You have brown eyes - Tú tienes ojos cafés\n
+    ^ You have a bicycle - Tú tienes una bicicleta\n
+    ^ You have many cousins - Tú tienes muchos primos\n
+    ^ You have the book - Tú tienes el libro\n
+    ^ ¿Quieres ejemplos de algún otro  tipo de verbo to have?
+
+    + he has
+    - He has a son - Él tiene un hijo.\n
+    ^ He has many cousins - Él tiene muchos primos\n
+    ^ He has the book - Él tiene el libro\n
+    ^ He has brown eyes - Él tiene ojos cafés\n
+    ^ He has a bicycle - Él tiene una bicicleta\n
+    ^ ¿Quieres ejemplos de algún otro  tipo de verbo to have?
+
+    + she has
+    - She has the book - Ella tiene el libro\n
+    ^ She has a son - Ella tiene un hijo.\n
+    ^ She has many cousins - Ella tiene muchos primos\n
+    ^ She has brown eyes - Ella tiene ojos cafés\n
+    ^ She has a bicycle - Ella tiene una bicicleta\n
+    ^ ¿Quieres ejemplos de algún otro  tipo de verbo to have?
+
+    + we have
+    - We have a son - Nosotros tenemos un hijo.\n
+    ^ We have brown hair. (Tenemos pelo moreno.)\n
+    ^ We have money - Nosotros tenemos dinero\n
+    ^ We have a blue car - Nosotros tenemos un carro azul\n
+    ^ We have a bicycle - Nosotros tenemos una bicicleta\n
+    ^ ¿Quieres ejemplos de algún otro  tipo de verbo to have?
+
+    + you have
+    - You have a son - Ustedes tienen un hijo.\n
+    ^ You have a very big house - Ustedes tienen una casa muy grande\n
+    ^ You have a lot of health - Ustedes tienen mucha salud\n
+    ^ You have a trip - Ustedes tienen un viaje\n
+    ^ You have a bicycle - Ustedes tienen una bicicleta\n
+    ^ ¿Quieres ejemplos de algún otro  tipo de verbo to have?
+
+    + they have
+    - They have a son - Ellos tienen un hijo.\n
+    ^ They have red hair - Ellos tienen cabello rojo\n
+    ^ They have many friends in Germany - Ellos tienen muchos amigos en Alemania\n
+    ^ They have a trip - Ellos tienen un viaje\n
+    ^ They have a bicycle - Ellos tienen una bicicleta\n
+    ^ ¿Quieres ejemplos de algún otro  tipo de verbo to have?
+
+< topic
+
+> topic verbotohavehaber includes terceraseccion
+    + @si
+	- Ok, ¿De cuál verbo to have haber quieres los ejemplos?
+	- Muy bien, ¿acerca de cuál verbo to have haber quieres saber más?
+	- Claro, dime de cuál verbo to have haber te interesan los ejemplos.
+
+    + i had
+    - I had walked - Yo habia caminado.\n
+    ^ I had drawn - yo habia dibujado.\n
+    ^ I had studied a lot for the exam - Yo habia estudiado mucho para el examen\n
+    ^ I had mistreated my brother - yo habia maltratado ami hermano\natural\n
+    ^ I had prepared the dinner - yo habia preparado la cena\n
+    ^ ¿Quieres ejemplos de algún otro  tipo de verbo to have?
+
+    + you 
+    - You had walked - Tú habias caminado.\n
+    ^ You had drawn - Tú habias dibujado.\n
+    ^ You had studied a lot for the exam - Tú habias estudiado mucho para el examen\n
+    ^ You had mistreated my brother - Tú habias maltratado ami hermano\natural\n
+    ^ You had prepared the dinner - Tú habiass preparado la cena\n
+    ^ ¿Quieres ejemplos de algún otro  tipo de verbo to have?
+
+    + he had
+    - He had walked - Él habia caminado.\n
+    ^ He had drawn - Él habia dibujado.\n
+    ^ He had studied a lot for the exam - Él habia estudiado mucho para el examen\n
+    ^ He had mistreated my brother - Él habia maltratado ami hermano\natural\n
+    ^ He had prepared the dinner - Él habia preparado la cena\n
+    ^ ¿Quieres ejemplos de algún otro  tipo de verbo to have?
+
+    + she had
+    - She had walked - Ella habia caminado.\n
+    ^ She had drawn - Ella habia dibujado.\n
+    ^ She had studied a lot for the exam - Ella habia estudiado mucho para el examen\n
+    ^ She had mistreated my brother - Ella habia maltratado ami hermano\natural\n
+    ^ She had prepared the dinner - Ella habia preparado la cena\n
+    ^ ¿Quieres ejemplos de algún otro  tipo de verbo to have?
+
+    + we had
+    - We had walked - Nosotros habíamos caminado.\n
+    ^ We had drawn - Nosotros habíamos dibujado.\n
+    ^ We had studied a lot for the exam - Nosotros habíamos estudiado mucho para el examen\n
+    ^ We had mistreated my brother - Nosotros habíamos maltratado ami hermano\natural\n
+    ^ We had prepared the dinner - Nosotros habíamos preparado la cena\n
+    ^ ¿Quieres ejemplos de algún otro  tipo de verbo to have?
+
+    + you had
+    - You had walked - Ustedes habian caminado.\n
+    ^ You had drawn - Ustedes habian dibujado.\n
+    ^ You had studied a lot for the exam - Ustedes habian estudiado mucho para el examen\n
+    ^ You had mistreated my brother - Ustedes habian maltratado ami hermano\natural\n
+    ^ You had prepared the dinner - Ustedes habian preparado la cena\n
+    ^ ¿Quieres ejemplos de algún otro  tipo de verbo to have?
+
+    + they had
+    - They had walked - Ellos habian caminado.\n
+    ^ They had drawn - Ellos habian dibujado.\n
+    ^ They had studied a lot for the exam - Ellos habian estudiado mucho para el examen\n
+    ^ They had mistreated my brother - Ellos habian maltratado ami hermano\natural\n
+    ^ They had prepared the dinner - Ellos habian preparado la cena\n
+    ^ ¿Quieres ejemplos de algún otro  tipo de verbo to have?
+
+< topic
+
+> topic verbotodopresentesimple includes terceraseccion
+    + @si
+	- Ok, ¿De cuál verbo to do presente simple quieres los ejemplos?
+	- Muy bien, ¿acerca de cuál verbo to do presente simple quieres saber más?
+	- Claro, dime de cuál verbo to do presente simple te interesan los ejemplos.
+
+    + i do
+    - I do my homework - Yo hago mi tarea.\n
+    ^ I do make cakes - Yo hago pasteles.\n
+    ^ I do sport - Yo hago deporte\n
+    ^ I do you study the lesson - Estudias la lección\n
+    ^ I do make the food - Yo hago la comida\n
+    ^ ¿Quieres ejemplos de algún otro tipo de verbo to do?
+
+    + you 
+    - You do my homework - Tú haces mi tarea.\n
+    ^ You do make cakes - Tú haces pasteles.\n
+    ^ You do sport - Tú haces deporte\n
+    ^ You do you study the lesson - Tú estudias la lección\n
+    ^ You do make the food - Tú haces la comida\n
+    ^ ¿Quieres ejemplos de algún otro tipo de verbo to do?
+
+    + he does
+    - He does my homework - Él hace mi tarea.\n
+    ^ He does make cakes - Él hace pasteles.\n
+    ^ He does sport - Él hace deporte\n
+    ^ He does you study the lesson - Él estudia la lección\n
+    ^ He does make the food - Él hace la comida\n
+    ^ ¿Quieres ejemplos de algún otro tipo de verbo to do?
+
+    + she does
+    - She does my homework - Ella hace mi tarea.\n
+    ^ She does make cakes - Ella hace pasteles.\n
+    ^ She does sport - Ella hace deporte\n
+    ^ She does you study the lesson - Ella hace la lección\n
+    ^ She does make the food - Ella hace la comida\n
+    ^ ¿Quieres ejemplos de algún otro tipo de verbo to do?
+
+    + it does
+    - It does my homework - Ella hace mi tarea.\n
+    ^ It does make cakes - Ella hace pasteles.\n
+    ^ It does sport - El hace deporte\n
+    ^ It does you study the lesson - Ella hace la lección\n
+    ^ It does make the food - Ella hace comida\n
+    ^ ¿Quieres ejemplos de algún otro tipo de verbo to do?
+
+    + we do
+    - We do my homework - Nosotros hacemos mi tarea.\n
+    ^ We do make cakes - Nosotros hacemos pasteles.\n
+    ^ We do sport - Nosotros hacemos deporte\n
+    ^ We do you study the lesson - Nosotros hacemos la lección\n
+    ^ We do make the food - Nosotros hacemos la comida\n
+    ^ ¿Quieres ejemplos de algún otro tipo de verbo to do?
+
+    + you do
+    - You do my homework - Ustedes hacen mi tarea.\n
+    ^ You do make cakes - Ustedes hacen pasteles.\n
+    ^ You do sport - Ustedes hacen deporte.\n
+    ^ You do you study the lesson - Ustedes hacen la lección.\n
+    ^ You do make the food - Ustedes hacen la comida.\n
+    ^ ¿Quieres ejemplos de algún otro tipo de verbo to do?
+
+    + they do
+    - They do my homework - Ellos hacen mi tarea.\n
+    ^ They do make cakes - Ellos hacen pasteles.\n
+    ^ They do sport - Ellos hacen deporte\n
+    ^ They do you study the lesson - Ellos hacen la lección\n
+    ^ They do make the food - Ellos hacen la comida\n
+    ^ ¿Quieres ejemplos de algún otro tipo de verbo to do?
+
+< topic
+
+> topic verbotodopasadosimple includes terceraseccion
+    + @si
+	- Ok, ¿De cuál verbo to do pasado simple quieres los ejemplos?
+	- Muy bien, ¿acerca de cuál verbo to do pasado simple quieres saber más?
+	- Claro, dime de cuál verbo to do pasado simple te interesan los ejemplos.
+
+    + i did
+    - I did my homework - Yo hice mi tarea.\n
+    ^ I did make cakes - Yo hice pasteles.\n
+    ^ I did sport - Yo hice deporte\n
+    ^ I did you study the lesson - Hice la lecciónn\n
+    ^ I did make the food - YO hice la comida\n
+    ^ ¿Quieres ejemplos de algún otro tipo de verbo to do?
+
+    + you 
+    - You did my homework - Tú hiciste mi tarea.\n
+    ^ You did make cakes - Tú hiciste pasteles.\n
+    ^ You did sport - Tú hiciste deporte\n
+    ^ You did you study the lesson - Tú hiciste la lección\n
+    ^ You did make the food - Tú hiciste la comida\n
+    ^ ¿Quieres ejemplos de algún otro tipo de verbo to do?
+
+    + he did
+    - He did my homework - Él hizo mi tarea.\n
+    ^ He did make cakes - Él hizo pasteles.\n
+    ^ He did sport - Él hizo deporte\n
+    ^ He did you study the lesson - Él hizo la lección\n
+    ^ He did make the food - Él hizo la comida\n
+    ^ ¿Quieres ejemplos de algún otro tipo de verbo to do?
+
+    + she did
+    - She did my homework - Ella hizo mi tarea.\n
+    ^ She did make cakes - Ella hizo pasteles.\n
+    ^ She did sport - Ella hizo deporte\n
+    ^ She did you study the lesson - Ella hizo la lección\n
+    ^ She did make the food - Ella hizo la comida\n
+    ^ ¿Quieres ejemplos de algún otro tipo de verbo to do?
+
+    + it did
+    - It did my homework - Ella hizo mi tarea.\n
+    ^ It did make cakes - Ella hizo pasteles.\n
+    ^ It did sport - El hizo deporte\n
+    ^ It did you study the lesson - Ella hizo la lección\n
+    ^ It did make the food - Ella hizo comida\n
+    ^ ¿Quieres ejemplos de algún otro tipo de verbo to do?
+
+    + we did
+    - We did my homework - Nosotros hicimos mi tarea.\n
+    ^ We did make cakes - Nosotros hicimos pasteles.\n
+    ^ We did sport - Nosotros hicimos deporte\n
+    ^ We did you study the lesson - Nosotros hicimos la lección\n
+    ^ We did make the food - Nosotros hicimos la comida\n
+    ^ ¿Quieres ejemplos de algún otro tipo de verbo to do?
+
+    + you did
+    - You did my homework - Hicimos mi tarea.\n
+    ^ You did make cakes - Hicimos pasteles.\n
+    ^ You did sport - Hicimoss deporte.\n
+    ^ You did you study the lesson - Hicimos la lección.\n
+    ^ You did make the food - Hicimos la comida.\n
+    ^ ¿Quieres ejemplos de algún otro tipo de verbo to do?
+
+    + they did
+    - They did my homework - Ellos hicieron mi tarea.\n
+    ^ They did make cakes - Ellos hicieron pasteles.\n
+    ^ They did sport - Ellos hicieron deporte\n
+    ^ They did you study the lesson - Ellos hicieron la lección\n
+    ^ They did make the food - Ellos hicieron la comida\n
+    ^ ¿Quieres ejemplos de algún otro tipo de verbo to do?
+
+< topic
+
+> topic formascortas includes terceraseccion
+
+    + @si
+	- Ok, ¿De cuál tipo de forma corta quieres de los ejemplos?
+	- Muy bien, ¿acerca de cuál tipo de forma corta quieres saber más?
+	- Claro, dime de cuál tipo de forma corta te interesan los ejemplos.
+
+    + forma simple
+    - I am - I’m.\n 
+    ^ you are - you’re.\n
+    ^ he is - he’s.\n
+    ^ she is - she’s.\n
+    ^ it is - it’s.\n
+    ^ we are - we’re.\n
+    ^ they are - they’re.\n
+    ^ ¿Quieres ejemplos de alguna forma corta?
+    
+    + forma negativa
+    - I am not - I’m not\n
+    ^ you are not - you’re not - you aren’t\n
+    ^ he is not - he’s not - he isn’t\n
+    ^ she is not - she’s not - she isn’t\n
+    ^ it is not - it’s not - it isn’t\n
+    ^ we are not - we’re not - we aren’t\n
+    ^ ¿Quieres ejemplos de alguna forma corta?
+
+< topic
+
+> topic vocabulario includes terceraseccion
+
+    + @si
+	- Ok, ¿De cuál tipo de vocabulario quieres de los ejemplos?
+	- Muy bien, ¿acerca de cuál tipo de vocabulario quieres saber más?
+	- Claro, dime de cuál tipo de vocabulario te interesan los ejemplos.
+    
+    + vocabulario
+    - Abuela - Grandmother.\n 
+    ^ Abuelo - Grandfather.\n
+    ^ Bisabuela - Great grandmother.\n
+    ^ Bisabuelo - Great grandfather.\n
+    ^ Cuñada - Sister in law.\n
+    ^ Cuñado - Brother in law.\n
+    ^ Esposa - Wife.\n
+    ^ Esposo-Marido - Husband.\n
+    ^ Hermana - Sister.\n
+    ^ Hermano -Brother.\n
+    ^ Hijo mayor - Eldest child.\n
+    ^ Madre - Mother.\n
+    ^ Mami - Mom.\n
+    ^ Nieto - Grandson.\n
+    ^ Nieto-a - Grandchild.\n
+    ^ Padre - Father.\n
+    ^ Papi - Dad.\n
+    ^ Primo-a - Cousin.\n
+    ^ Sobrina - Niece.\n
+    ^ Sobrino - Nephew.\n
+    ^ Suegra - Mother in law.\n
+    ^ Suegro - Father in law.\n
+    ^ Tía - Aunt.\n
+    ^ Tío - Uncle.\n
+    ^ Yerno - Son in law.\n
+    ^ ¿Quieres ejemplos de vocabulario?
+
+    + ejemplos
+    - Who is your BROTHER? - ¿Quién es tu hermano?\n
+    ^ How is your MOTHER doing? - ¿Cómo está tu mamá?\n 
+    ^ What is your FATHERlike? - ¿Cómo es tu padre?\n
+    ^ What does your daughter look like? - ¿Cómo es (físicamente) tu hija?\n 
+    ^ What is your SISTER'S name? - ¿Cómo se llama tu hermana?\n
+    ^ ¿Quieres ejemplos de vocabulario?
+ 
+< topic

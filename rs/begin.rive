@@ -1,0 +1,40 @@
+! version = 2.0
+
+> begin
+	+ request
+	- {ok}
+< begin
+
+// El nombre de los creadores del bot
+! var creadores = Los ++
+
+// Variables del bot
+! var nombre = LinguaBot+
+
+// Substituciones
+! sub k = que
+! sub q = que
+! sub ke = que
+! sub qe = que
+! sub haiga = haya
+! sub aiga = haya
+! sub ola = hola
+
+// Arreglos
+! array pronombresmasculinos = hombre tipo niño caballero muchacho
+! array pronombresfemeninos  = mujer tipa niña dama muchacha
+! array si					 = sí si afirmativo ok bien claro yeah yes gracias chido chingon chevere genial
+! array no					 = no nel nah nope
+! array saludos				 = hola|buenos dias|buenos días|buenas tardes|buenas noches|qué onda|qué tal|que onda|que tal|hi|hellow|hello|que tranza|que onda compa
+! array despedidas			 = adios|adiós|goodbye|good bye|hasta luego|bye|nos vemos bye|sale bye|sale adios|nos vemos adios|sale adiós|nos vemos adiós|bueno adios|nos vemos
+! array decirnombre			 = mi nombre es|me llamo|soy|me dicen
+! array gracias				 = muchas gracias|gracias|bien gracias
+! array mal					 = mal|no muy bien|muy mal|de la verga|de la chingada
+
+// Substituciones de pronombres
+! person yo soy  = tú eres
+! person tú eres = yo soy
+! person mi      = tu
+! person tu      = mi
+! person tú      = yo
+! person yo      = tú

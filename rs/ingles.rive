@@ -1,0 +1,124 @@
++ [*] (@si|@gracias) [*]
+- ¡Qué gusto que estés bien!😊\n
+^ ¡Repasemos inglés para que te sientas aún mejor! 🙂\n {@ quiero repasar ingles}
+
++ repasemos ingles
+- Tengo cuatro secciones. ¿Cuál te interesa repasar?\n
+^ ➡Sección 1: ARTÍCULOS, PREPOSICIONES, COLORES\n
+^ ➡Sección 2: PRONOMBRES, NUMEROS, SUSTANTIVOS, VOCABULARIO (SALUDOS), VOCABULARIO(PERSONAS)\n
+^ ➡Sección 3: VERBOS, FORMAS CORTAS, VOCABULARIO FAMILIAR\n
+^ ➡Sección 4: ACTIVIDADES{topic=secciones}
+
++ quiero repasar ingles
+- Tengo cuatro secciones. ¿Cuál te interesa repasar?\n
+^ ➡Sección 1: ARTÍCULOS, PREPOSICIONES, COLORES\n
+^ ➡Sección 2: PRONOMBRES, NUMEROS, SUSTANTIVOS, VOCABULARIO (SALUDOS), VOCABULARIO(PERSONAS)\n
+^ ➡Sección 3: VERBOS, FORMAS CORTAS, VOCABULARIO FAMILIAR\n
+^ ➡Sección 4: ACTIVIDADES{topic=secciones}
+
++ [*] @mal [*]
+- Lo lamento mucho.\n
+^ ¡Repasemos inglés para levantar esos ánimos!\n {@ quiero repasar ingles}
+
++ *
+- Perdón, pero no comprendí lo que acabas de decir. 🙈
+- Lo siento, no entendí que dijiste. 🙈
+- ¿Puedes repetir de otra forma eso último? 🙈
+
+> topic global
+	+ [*] @saludos [*]
+	- Hola, soy LinguaBot+. ¡Repasemos inglés! ✌\n {@ quiero repasar ingles}
+	- Bienvenido/a, a tus órdenes, mi nombre es LinguaBot+ 😋. ¡Repasemos inglés!✌\n {@ quiero repasar ingles}
+	- Qué tal, me llamo LinguaBot+. ¡Repasemos inglés! ✌\n {@ quiero repasar ingles}
+
+	+ [*] (@si|@gracias) [*]
+	- ¡Qué gusto que estés bien!\n
+	^ ¡Repasemos inglés para que te sientas aún mejor! 🙂🙂\n {@ quiero repasar ingles}
+
+	+ repasemos ingles
+	- Tengo cuatro secciones. ¿Cuál te interesa repasar?\n
+	^ ➡Sección 1: ARTÍCULOS, PREPOSICIONES, COLORES\n
+	^ ➡Sección 2: PRONOMBRES, NUMEROS, SUSTANTIVOS, VOCABULARIO (SALUDOS), VOCABULARIO(PERSONAS)\n
+	^ ➡Sección 3: VERBOS, FORMAS CORTAS, VOCABULARIO FAMILIAR\n
+	^ ➡Sección 4: ACTIVIDADES{topic=secciones}
+
+	+ quiero repasar ingles
+	- Tengo cuatro secciones. ¿Cuál te interesa repasar?\n
+	^ ➡Sección 1: ARTÍCULOS, PREPOSICIONES, COLORES\n
+	^ ➡Sección 2: PRONOMBRES, NUMEROS, SUSTANTIVOS, VOCABULARIO (SALUDOS), VOCABULARIO(PERSONAS)\n
+	^ ➡Sección 3: VERBOS, FORMAS CORTAS, VOCABULARIO FAMILIAR\n
+	^ ➡Sección 4: ACTIVIDADES{topic=secciones}
+
+	+ [*] @mal [*]
+	- Lo lamento mucho.\n
+	^ ¡Repasemos inglés para levantar esos ánimos!\n {@ quiero repasar ingles}
+
+	+ (como me llamo|cual es mi nombre)
+	* <get nombre> == undefined => No me has dicho tu nombre.
+	- Tu nombre es <get nombre>.
+	- Eres <get nombre>
+	- ¡Te llamas <get nombre>!
+
+	+ *
+	- Perdón, pero no comprendí lo que acabas de decir 🙈.
+	- Lo siento, no entendí que dijiste 😫 😖.
+	- ¿Puedes repetir de otra forma eso último 🙈 😖?
+
+	+ (como te llamas|cual es tu nombre|quien eres)
+	- Mi nombre es <bot nombre>
+	- Me dicen <bot nombre>
+	- Me llamo <bot nombre>
+
+	+ quien te (creo|hizo)
+	- Mis creadores se llaman <bot creadores>
+
+	+ quiero cambiar [mi] nombre
+	// TODO: VER COMO ALMACENAR EL TÓPICO ANTERIOR
+	- Claro. ¿A cuál lo quieres cambiar?{topic=cambionombre}
+
+	+ @despedidas
+	- Que te vaya bien
+	- Gracias por usar el servicio 
+	- Adiós
+	- Hasta luego
+
+	+ reiniciar
+	- Reiniciando . . .{topic=random}
+< topic
+
+> topic cambionombre includes global
+	+ [quiero cambiarlo] [a] *
+	- Muy bien. ¡De ahora en adelante, te recordaré como <set nombre=<formal>><get nombre>!{topic=random}
+< topic
+
+> topic secciones includes global
+	+ [*] (primera [seccion]|[seccion] 1) [*]
+	- ➡Estos son los temas de la primera sección.\n{topic=primeraseccion}
+	^ ARTÍCULOS\n
+	^ PREPOSICIONES.\n
+	^ COLORES.\n
+	^ ¿Cuál de los temas de la primera sección te interesa repasar?
+
+	+ [*] (segunda [seccion]|[seccion] 2) [*]
+	- ➡Dentro de la segunda sección tengo los siguientes temas:\n{topic=segundaseccion}
+	^ Los pronombres personales.\n
+	^ Los números cardinales y ordinales.\n
+	^ Sustantivos.\n
+	^ Vocabulario: Presentaciones y personas.\n
+	^ ¿Cuál de los temas de la segunda sección te interesa repasar?
+
+	+ [*] (tercera [seccion]|[seccion] 3) [*]
+	- ➡Estos son los temas de la tercera sección.\n{topic=terceraseccion}
+	^ Verbos\n
+	^ Formas cortas\n
+	^ Vocabulario familiar\n
+	^ ¿Cuál de los temas de la tercera sección te interesa repasar?
+
+	+ [*] (cuarta [seccion]|[seccion] 4) [*]
+	- ➡Actividades\n {topic=cuartaseccion}
+	^ Disculpa las molestias se encuentra en construcción...
+	^ ¿Cuál de los temas de la cuarta sección te interesa repasar? 
+
+	+ [*] cambiar [*] seccion [*]
+	- Ok. ¿A cuál de las secciones deseas cambiarte?
+< topic

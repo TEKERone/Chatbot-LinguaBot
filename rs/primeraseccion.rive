@@ -1,0 +1,273 @@
+> topic primeraseccion includes secciones
+
+	+ [los] articulos
+	- Ok, existen 2 tipos de articulos:\n
+	^ Articulo Definido.\n
+	^ Articulo Indeterminado.\n
+	^ ¿Cual de los tipos de articulos te interesa repasar?
+
+	+ temas de la primera seccion
+	- ¿Cuál de los temas de la primera sección te interesa repasar?\n 
+	^ Articulos.\n
+	^ Preposiciones.\n
+	^ Colores.\n
+
+	+ quiero cambiar de tema
+	- {@ temas de la primera seccion}
+
+	+ que otro tema puedo repasar
+	- {@ temas de la primera seccion}
+
+	+ [*] cambiar [*] tema [*]
+	- {@ temas de la primera seccion}
+
+
+	+ [el] [articulo] definido
+	- El artículo definido o determinante se traduce en inglés por The.\n {topic=definido}
+    ^ Es invariable y corresponde a las formas españolas:\n
+    ^ El\n
+    ^ La\n
+    ^ Los\n
+    ^ Las\n
+    ^ Se utilizan cuando se hace referencia a algo específico o mencionado en un discurso anterior.\n
+    ^ ¿Quieres algunos ejemplos de el articulo definido?
+
+    + [el] [articulo] indeterminado
+    - El artículo indeterminado a o an, corresponde a los siguientes artículos en español:\n {topic=indeterminado}
+    ^ a\n  
+    ^ an\n 
+	^ ¿Quieres algunos ejemplos de el articulo indeterminado?
+    
+	+ [las] preposiciones
+    - Hay 2 tipos de preposiciones:\n 
+    ^ Las preposiciones de Tiempo y Lugar.\n 
+    ^ Las preposicones de Lugar y Movimiento.\n
+    ^ ¿Cual de los tipos de preposicion te interesa repasar?
+
+	+ [de] tiempo y lugar
+	- Las preposiciones de tiempo y de lugar son:\n {topic=tiempoylugar}
+	^ ON = Sobre, Encima de, de, al.\n
+	^ IN = En, Dentro, Dentro de, Hacia adentro.\n
+	^ AT = En, A, Por, Delante, Cerca de.\n
+	^ ¿Quieres ejemplos de algún tipo de preposicion?
+	
+	+ [de] lugar y movimiento
+	- Las preposiciones de lugar y movimiento son:\n {topic=delugarymovimiento}
+	^ Opposite = Contrario, En frente de.\n
+	^ On the corner = En la esquina.\n
+	^ Between = Entre.\n
+	^ In front of = Enfrente de, Delante de.\n
+	^ Near = Cerca.\n
+	^ Behind = Detrás de.\n
+	^ Next to = A continuación de, Al lado de:\n
+	^ Into, out of = Dentro de.\n
+	^ Out of = Fuera de.\n
+	^ ¿Quieres ejemplos de algún tipo de preposicion?
+
+	+ [los] colores
+    - Black = Negro.\n
+	^ Blue = Azul.\n
+	^ Brown = Marrón.\n
+	^ Green = Verde.\n
+	^ Grey = Gris.\n
+	^ Navy = Azul Marino.\n
+	^ Orange = Naranja.\n
+	^ Pink = Rosa.\n
+	^ Purple = Violeta / Morado.\n
+	^ Red = Rojo.\n
+	^ White = Blanco.\n
+	^ Yellow = Amarillo\n
+	^¿Cuál de los temas de la primera sección te interesa repasar?
+
+
+    + @no
+	- Perfecto que pases un exelente día vuelve pronto.\n {@ que otro tema puedo repasar}
+    - Recuerda seguir practicando.\n{@ que otro tema puedo repasar}
+    - Vuelve pronto para seguir practicando.\n {@ que otro tema puedo repasar}
+	- OK. No te preocupes. Puedes repasar otros temas..\n {@ que otro tema puedo repasar}
+	- No pasa nada, puedes repasar otros temas..\n {@ que otro tema puedo repasar}
+	- Ok, espero que sigas repasando otros tema..\n {@ que otro tema puedo repasar}
+< topic
+
+> topic definido  includes primeraseccion
+
+	+ @si
+	- Ok, ¿De cuál articulo quieres de los ejemplos?
+	- Muy bien, ¿acerca de cuál articulo quieres saber más?
+	- Claro, dime de cuál articulo te interesan los ejemplos.
+
+	+ el
+	- They boy = El niño.\n
+	^ The car is new = El carro es nuevo.\n
+	^ The orange juice is cold = El jugo de naranja esta frio.\n
+	^ The book which she was reading is on the table = El libro que ella estaba leyendo está sobre la mesa.\n
+	^ I lost the pen which you gave me yesterday = Perdí el bolígrafo que me diste ayer.\n
+	^ ¿Quieres ejemplos de algún otro articulo?
+
+	+ la
+	- The girl = La niña.\n
+	^ The backpack is red = La mochila es roja.\n
+	^ The chair he is sitting in is very comfortable = La silla en la que él está sentado es muy cómoda.\n
+	^ The house is very big = La casa es muy grande.\n
+	^ The address is incorrect = La direccion es incorrecta.\n
+	^ ¿Quieres ejemplos de algún otro articulo?
+
+	+ los
+	- The kids play in the garden = Los niños juegan en el jardin.\n
+	^ We will be visiting with the grandparents = Iremos de visita con los abuelos.\n
+	^ The trees are growing = Los arboles estan creciendo.\n
+	^ the data is incorrect = Los datos son incorrectos.\n
+	^ the groups are already closed = Los grupos ya estan cerrados.\n
+	^ ¿Quieres ejemplos de algún otro articulo?
+
+	+ las
+	- The postcards arrived today = Las postales llegaron hoy.\n
+	^ The girls are excited = Las niñas estan emocionadas.\n
+	^ The roses in the garden are beautiful = Las rosas del jardin son hermosas.\n
+	^ The streets of the address were correct = Las calles de la direccion fueron correctas.\n
+	^ The keys are on the table = Las llaves estan sobre la mesa.\n
+	^ ¿Quieres ejemplos de algún otro articulo?
+
+< topic 
+
+> topic indeterminado includes primeraseccion
+
+	+ @si
+	- Ok, ¿De cuál articulo indeterminado quieres de los ejemplos?
+	- Muy bien, ¿acerca de cuál articulo indeterminado quieres saber más?
+	- Claro, dime de cuál articulo indeterminado te interesan los ejemplos.
+
+	+ a
+	- A House = Una Casa.\n
+	^ A Hat = Un sombrero.\n
+	^ A Horse = Un caballo.\n
+	^ A Book = Un libro.\n
+	^ A Pen = Un bolígrafo.\n
+	^ ¿Quieres ejemplos de algún otro articulo?
+
+	+ an
+	- An Apple = Una manzana.\n    
+	^ An Elephant = Un elefante.\n    
+	^ An Egg = Un huevo.\n
+	^ An Answer = Una contestación.\n
+	^ An Example = Un ejemplo.\n
+	^ ¿Quieres ejemplos de algún otro articulo?
+< topic
+
+> topic tiempoylugar includes primeraseccion
+
+	+ @si
+	- Ok, ¿De cuál preposicion quieres los ejemplos?
+	- Muy bien, ¿Acerca de cuál preposicion quieres saber más?
+	- Claro, dime de cuál preposicion te interesan los ejemplos.
+
+	+ on
+	- On (lugar): lo utilizamos para indicar la situación en superficies, transporte público o en pisos de un edificio.\n
+	^ Tiempo: on Monday (en/el lunes).\n
+	^ Lugar: on the sofa (en el sofá) = Encima de.\n 
+	^ My flat is on the first floor = Mi piso está en la primera planta.\n
+	^ You don't work on Sunday = Tu no trabajas el domingo.\n
+	^ On 10th june = El 10 de junio.\n
+	^ They go to church on Christmas day = Ellos van a la iglesia en el día de Navidad.\n
+	^ ¿Quieres ejemplos de algún otra preposicion?
+
+	+ in
+	- In se usa cuando hablamos de un objeto o persona que está dentro de algún lugar o sitio. También se puede usar inside.\n
+	^ Tiempo: in 5 minutes ( en 5 minutos).\n
+	^ Lugar: in the box (en la caja) = Dentro de.\n
+	^ I live in Brighton = Vivo en Brigthion.\n
+	^ My birthday is in June = Mi cumpleaños es en junio.\n
+	^ I was born in 1970 = Nací en 1970.\n
+	^ The coins are inside the bag = Las monedas entan dentro de la bolsa.\n
+	^ ¿Quieres ejemplos de algún otra preposicion?
+
+	+ at
+	- Se utiliza tanto para indicar que algo o alguien está en lugares comunes (la escuela, el trabajo), como para lugares específicos y direcciones.\n
+	^ Tiempo: at the weekend = En/el fin de semana.\n
+	^ Lugar: at home = En casa.\n
+	^ I live at 42 Porltand Street = Vivo en el 42 de Portland Street.\n
+	^ He is at home = Él esta en casa.\n
+	^ I usually get up at 7 o'clock = Normalmente me levanto a las 7 en punto.\n
+	^ I always visit my parents at Chirstmas = Siempre visito a mis padres en Navidades\n
+	^ I usually play tennis at weekends = Acostumbro a jugar al tenis en los fines de semana.\n
+	^ ¿Quieres ejemplos de algún otra preposicion?
+
+
+< topic
+
+> topic delugarymovimiento includes primeraseccion
+
+	+ @si
+	- Ok, ¿De cuál preposicion de lugar y movimiento quieres los ejemplos?
+	- Muy bien, ¿Acerca de cuál preposicion de lugar y movimiento quieres saber más?
+	- Claro, dime de cuál preposicion de lugar y movimiento te interesan los ejemplos.
+
+	+ opposite
+	- They sat opposite each other and started arguing = Se sentaron uno frente al otro y comenzaron a discutir.\n
+	^ My house is opposite the church = Mi casa está en frente de la iglesia. (cruzando la calle).\n
+	^ I don't want her to be sitting opposite me = No quiero que ella esté sentada en frente de mí.\n
+	^ The bank is opposite the market = El banco está delante del mercado.\n
+	^ She is sitting opposite me = Se está sentando en frente de mí.\n
+	^ ¿Quieres ejemplos de algúna otra preposicion?
+
+	+ on the corner
+	- I hit my knee on the corner of the table = Me golpeé la rodilla con la esquina de la mesa.\n
+	^ The restaurant is located on the corner of Fifth and Main = El restaurante se ubica en la esquina entre la Cinco y Main.\n
+	^  there, on the corner of the square, said Fix, pointing to a house two hundred steps off = Allí en la esquina de la plaza respondió el inspector, indicando una casa que distaba unos doscientos pasos.\n 
+	^ I took out my revolver and laid it on the corner of the table = Saqué mi revólver y lo puse en una esquina de la mesa.\n
+	^ ¿Quieres ejemplos de algúna otra preposicion?
+
+	+ between
+	- This bank is open between one and five in the afternoon = Este banco está abierto entre la una y las cinco de la tarde.\n
+	^ He sleeps between five and six hours per day = El duerme entre cinco y seis horas por día.\n
+	^ The letter should arrive between Tuesday and Friday =La carta debería llegar entre el martes y el viernes.\n
+	^ The shop is between the baker's and the station = La tienda está entre la panaderia y la estación.\n
+	^ She is standing between Peter and John = Ella está de pie entre Pedro y Juan.\n
+	^ ¿Quieres ejemplos de algúna otra preposicion?
+
+	+ in front of
+	- The hotel is in front of the station = El hotel está en frente de la estación.\n
+	^ Laura is standing in front of you = Laura está de pie delante de ti.\n
+	^ Just stand in front of the TV and don't move = Sólo párate enfrente de la TV y no te muevas.\n
+	^ There is a bus stop in front of my house = Hay una parada de autobús enfrente de mi casa.\n
+	^ She hit her brother right in front of her mother = Ella golpeó a su hermano justo enfrente de su madre.\n
+	^ ¿Quieres ejemplos de algúna otra preposicion?
+
+	+ near
+	- There is a pay phone near that monument = Hay un teléfono público cerca de ese monumento.\n
+	^ It is terrible to live near an airport = Es horrible vivir cerca de un aeropuerto.\n
+	^ The hospital was built near the university = El hospital fue contruído cerca de la universidad.\n
+	^ The priest was sitting near the lake, reading Numbers = El sacerdote estaba sentado cerca del lago, leyendo Números.\n 
+	^ The wedding is near and we haven't finished with the preparations = La boda está próxima y no hemos terminado con los preparativos.\n
+	^ ¿Quieres ejemplos de algúna otra preposicion?
+
+	+ behind
+	- The library in our town is behind the bank = La biblioteca de nuestro pueblo está tras el banco.\n
+	^ You hurt me when you pushed me from behind = Me lastimaste cuando me empujaste desde atrás.\n
+	^ The soldier launched a grenade behind enemy lines = El soldado lanzó una granada tras las lineas enemigas.\n  
+	^ A narrow passage led directly through the house into the garden behind = Un corredor angosto llevaba directamente a través de la casa al jardín del fondo.\n 
+	^ ¿Quieres ejemplos de algúna otra preposicion?
+
+	+ next to
+	- My favorite restaurant is next to the beach = Mi restaurante preferido está junto a la playa.\n
+	^ She looks beautiful next to her friend who looks like a hag = Se ve guapa junto a su amiga que parece una bruja.\n
+	^ I live on the fourth floor, next to the gym = Vivo en el cuarto piso, al lado del gimnasio.\n
+	^ Wait for me at the restaurant that is next to the subway = Espérame en el restaurante que está al lado del metro.\n
+	^ There 's a bar of soap next to the bath tub = Hay una pastilla de jabón al lado de la bañera.\n
+	^ ¿Quieres ejemplos de algúna otra preposicion?
+
+	+ into
+	- The cook went into the kitchen = El cocinero fue a la cocina.\n
+	^ He threw some vegetables into a pot = Arrojó algunas verduras dentro de una olla.\n
+	^ Bill jumped off the bridge into the river =  Bill saltó desde el puente al río.\n
+	^ You can't pack six people into a taxi = No puedes embutir a seis personas dentro de un taxi.\n
+	^ The vote will take place in a moment = La votación tendrá lugar dentro de un momento.\n
+	^ ¿Quieres ejemplos de algúna otra preposicion?
+
+	+ out of
+	- The crab came out of its hole in the sand = El cangrejo salió de su hueco en la arena.\n
+	^ The milk is off because you left it out of the fridge = La leche está mala porque la dejaste fuera de la nevera.\n
+	^ And with these words, he almost ran out of the room = Y con estas palabras, salió casi corriendo de la habitación.\n
+	^ ¿Quieres ejemplos de algúna otra preposicion?
+< topic
+
